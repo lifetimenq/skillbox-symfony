@@ -1,0 +1,22 @@
+POST https://127.0.0.1:8000/api/article
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 32237f87c97dc5f9d8258f41d61e561c2b553443
+
+{
+   "theme": "tech",
+   "title": "Тестовая статья",
+   "keywords": {
+       "keyword0": "EXAMPLE",
+       "keyword1": "EXAMPLE",
+       "keyword2": "EXAMPLE",
+       "keyword3": "EXAMPLE",
+       "keyword4": "EXAMPLE",
+       "keyword5": "EXAAAAAMPLE",
+       "keyword6": "EXAMPLES"
+   },
+   "sizeFrom": 1,
+   "sizeTo": 1,
+   "word1": "asd",
+   "images": ["https://via.placeholder.com/250x250"]
+}
